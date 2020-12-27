@@ -1,0 +1,13 @@
+server.port: 8080
+
+spring:
+  application.name: simple-spring-crud
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/simple-spring-crud
+    username: simple-spring-crud
+    password: simplepassword
+
+  flyway:
+    enabled: true
+    baseline-on-migrate: false
